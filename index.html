@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                
+                        <h1 id="headertitle">Header</h1>
+                
+                    
+                <form id="searchFrom" action=" " class="form-inline">
+                    
+                            <input id="search" type="text" class="form-control mr-sm-2" placeholder="search here...">
+                    
+                    
+                </form>
+            </div>
+        </header>
+            <div class="container">
+            <div id="content">
+                <h2>Add items</h2>
+                    <form id="addForm" action="action.php" class="form-inline">
+                            <input id="liInput" type="text" class="form-control mb-2 mr-sm-2" >
+                            <input type="submit" class="btn btn-primary mb-2" value="Submit">
+                    </form>
+                <h2>Items</h2>
+                    <ul id="items" class="list-group">
+                        <li class="list-group-item">Item 1
+                            <button class="btn btn-danger" id="cross">x</button>
+                        </li>
+                        <li class="list-group-item">Item 2
+                                <button class="btn btn-danger" id="cross">x</button>
+                        </li>
+                        <li class="list-group-item">Item 3
+                                <button class="btn btn-danger" id="cross">x</button>
+                        </li>
+                        <li class="list-group-item">Item 4
+                                <button class="btn btn-danger" id="cross">x</button>
+                        </li>
+                        <li class="list-group-item">Item 5
+                                <button class="btn btn-danger" id="cross">x</button>
+                        </li>
+                    </ul>
+                    <div id="output"></div>
+            </div>
+            
+            
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
